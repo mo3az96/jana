@@ -485,6 +485,7 @@ html[dir='rtl'] .nav-li {
   font-weight: 500;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
 }
 
 .nav-a:hover, .nav-a:focus {
@@ -1103,6 +1104,10 @@ html[dir='rtl'] .cat:last-of-type {
   width: 190px;
 }
 
+html[dir='ltr'] .feat {
+  width: 250px;
+}
+
 .feat .feat-img {
   font-size: 36px;
   margin-bottom: 12px;
@@ -1383,6 +1388,11 @@ html[dir='rtl'] .top-links {
 
 html[dir='ltr'] .top-link i {
   margin-right: 9px;
+}
+
+html[dir='ltr'] .top-link i.fa-phone {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 html[dir='rtl'] .top-link i {
@@ -1691,6 +1701,7 @@ html[dir='rtl'] .log-menu .user-anchor {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 48px;
+  text-transform: capitalize;
 }
 
 @media (max-width: 991px) {
@@ -1888,6 +1899,7 @@ footer {
   color: #333333;
   font-weight: bold;
   margin-bottom: 20px;
+  text-transform: capitalize;
 }
 
 .nav-foot-li {
